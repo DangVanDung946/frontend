@@ -1,5 +1,5 @@
 import axios from "axios";
-let API_URL = "http://localhost:8080/api";
+let API_URL = "http://localhost:7199/api";
 
 export async function callApi(endpoint, method = "GET", body) {
   return await axios({
